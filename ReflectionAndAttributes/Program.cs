@@ -2,13 +2,13 @@
 
 namespace Stealer
 {
-    class Program
+    public class StartUp
     {
         static void Main(string[] args)
         {
             Hacker hacker = new Hacker();
             Spy spy = new Spy();
-            Console.WriteLine(spy.StealFieldInfo("Stealer.Hacker", "username", "password"));
+            Console.WriteLine(spy.AnalyzeAccessModifiers("Hacker"));
         }
     }
 }
