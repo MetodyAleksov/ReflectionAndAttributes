@@ -6,9 +6,8 @@ namespace Stealer
     {
         static void Main(string[] args)
         {
-            Hacker hacker = new Hacker();
             Spy spy = new Spy();
-            Console.WriteLine(spy.AnalyzeAccessModifiers("Hacker"));
+            Console.WriteLine(spy.GetGetterAndSetterReturnType("Stealer.Hacker"));
         }
     }
 }
